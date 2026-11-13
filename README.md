@@ -5,12 +5,10 @@
 Repositorio del laboratorio de la Unidad 10 de Programación Web. Contiene un único proyecto Maven Spring Boot (`catalogo-productos/`) con una suite de pruebas unitarias, de integración y de capa web sobre un catálogo de productos, además de una colección Postman versionada y un umbral de cobertura verificado con JaCoCo.
 
 El objetivo del laboratorio no es construir una aplicación nueva, sino escribir una suite de pruebas automatizadas completa sobre una aplicación pequeña a propósito. La aplicación ofrece cuatro operaciones de negocio:
-
 - crear un producto;
 - consultarlo por id;
 - consultar los productos de una categoría;
 - actualizar el precio de un producto.
-
 El laboratorio tiene dos partes que conviven en el mismo proyecto y se evalúan juntas:
 
 - **Parte 1:** pruebas unitarias con JUnit 5 y Mockito sobre `ProductoService`, y pruebas de integración con `@DataJpaTest` y H2 en memoria sobre `ProductoRepository`.
